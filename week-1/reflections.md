@@ -45,3 +45,15 @@ I feel like the commands that were covered in the study material were a good sol
 
 
 # 1.4 Forking and Cloning Reflection
+
+To create a new repository you would log in to your GitHub account, click on the '+' sign next to your profile picture and select 'New Repository'. On the following page you would name your repository ( for example: 'phase-0' ) choose if you want it to be public or private, which means either anyone can access your repository or you choose who has access. Then select a license if applicable, and click Create Repository.
+
+To fork a repo (repository for short) you would navigate to a GitHub account where the repo you want to fork is located ( for example: https://github.com/Devbootcamp/p0-cli-exploration (Links to an external site.) ) then click on Fork which located in the top right hand corner under your profile picture, and in the window that pops up you select which GitHub account you want to fork the repo to. Once done you will have the exact copy of that repo on your account.
+
+The reason behind forking a repo as opposed to creating a new one is, it gives you the option to keep working on an existing project without affecting the original, so you can tweak it play with it and then either request to combine your changes with the original or completely change it and take the project in a different direction.
+
+To clone ( download to your computer ) a repo you would navigate to a repo that you want, copy that repo's URL for example: "https://github.com/Aslonski/phase-0.git" (Links to an external site.) and then in your command line you make sure to navigate to a folder that is NOT another repo (for example /users/andrey/desktop/phase-0/ ) and write: "git clone https://github.com/Aslonski/phase-0.git" (Links to an external site.)
+
+Now you should have the exact copy of the repo on your local drive.
+
+I didn't have any particular struggles setting up Git and GitHub, i found the process to be pretty straight forward and the instruction were very simple and easy to understand and follow. I learned the basic commands of git and how to create, fork and clone a repo and I'm excited to learn more and master these powerful tools! :)
