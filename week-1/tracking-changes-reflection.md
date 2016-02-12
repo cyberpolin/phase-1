@@ -12,10 +12,10 @@ A commit is a Git command that basically creates a save point or a snapshot. Eve
 **3. What are the best practices for commit messages?**
 
 In my opinion the best practices are:
-..* Make sure your message is clear and specific. Don't write "Fixed a bug"
-..* Limit the message to 50 characters, Capitalize it and dont end it with a period
-..* Use present tense like: "Add", "Fix", "Change" etc.
-..* If you need to use a more detailed explanation in your message, seperate the first line of your message and the detailed explanation with a blank line, and wrap the detailed explanation to about 72 characters.
+* Make sure your message is clear and specific. Don't write "Fixed a bug"
+* Limit the message to 50 characters, Capitalize it and dont end it with a period
+* Use present tense like: "Add", "Fix", "Change" etc.
+* If you need to use a more detailed explanation in your message, seperate the first line of your message and the detailed explanation with a blank line, and wrap the detailed explanation to about 72 characters.
 
 **4. What does the HEAD^ argument mean?**
 
@@ -25,9 +25,9 @@ If you checkout  "new_branch", HEAD^ will then point to "new_branch" and if you 
 **5. What are the 3 stages of a git change and how do you move a file from one stage to the other?**
 
 The 3 stages are:
-..* Work on a file in your text editor.
-..* Add the file for a commit.
-..* Commit the file with a message.
+* Work on a file in your text editor.
+* Add the file for a commit.
+* Commit the file with a message.
 
 To move from working on a file to adding a file you would type: "git status"
 to check if the file is ready to be added. Then to add the file to be commited you would type: "git add <YOUR_FILE>". And finally to commit the file with a message you would type: "git commit -m "<YOUR MESSAGE>" ".
@@ -46,11 +46,11 @@ to check if the file is ready to be added. Then to add the file to be commited y
 
 A pull request is basically a way to merge the code from a different branch  ( for example feature-branch ) to the master branch.
 Your typical workflow will look like this:
-..* Create new branch in the command line.
-..* Check out the branch. git checkout -b branch_name
-..* Write and commit some code. git commit file_name
-..* Push the branch to GitHub. git push origin branch_name
-..* Issue the pull request to the master branch
+* Create new branch in the command line.
+* Check out the branch. git checkout -b branch_name
+* Write and commit some code. git commit file_name
+* Push the branch to GitHub. git push origin branch_name
+* Issue the pull request to the master branch
 
 After issuing the pull request you will need to create the request on your GitHub account. Click on the green 'Compare & pull request' button, on the next screen make sure the base branch is the master branch and the compare branch is the new branch you just pushed. Write a title and the description of what changes you made as needed, and click the 'Create pull request' button.
 To merge the pull request to the master you would click 'Merge pull request' under the "Conversation" tab of your pull request. Then click 'Confirm merge'
