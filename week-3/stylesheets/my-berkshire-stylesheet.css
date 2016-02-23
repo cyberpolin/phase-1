@@ -1,0 +1,100 @@
+/** {
+  outline: 1px solid black;
+}*/
+.line-separator {
+border-bottom: 1px solid #000000;
+}
+
+.text-color{
+color: #000080;
+}
+
+a {
+  color: 800080;
+}
+
+a:link {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+.background: {
+  color:#ffffff;
+}
+
+span {
+  font-size: 12px;
+}
+
+#table {
+margin-left: 100px;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h3,h4,h5 {
+  margin: 5px;
+}
+
+h3 > span {
+  font-size: 40px;
+}
+
+section > h4 {
+  text-align: center;
+  font-size: 12px;
+  margin: 15px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+#small-font {
+font-size: 12px;
+}
+
+#span-position {
+  position: relative;
+  left: 15px;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It's important to understand the proper path to the stylesheet, and use the correct syntax so the stylesheet can be found and linked. So for example if you are linking a stylesheet that is in a parent directory of your HTML file you have to use '../' when defining the path.
+
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It took us quite some time to figure out how to position our links to look like the actual website, at first we tried to use columns but that didn't work and we had to scrap that and do tables instead. We also use the inspector tool to help us understand margins and padding.
+
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used font-size, color, and text-align.
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+We did modify our HTML, and we included classes, ids pseudo-classes for the links and CSS combinators to target a specific element inside a section. We chose ID's for information that was unique ( like the margin of our table or the smaller font size of the 'INC' in the header) and we used classes for informtaion that was reusable. (like the text color, and the ine seperators)
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+After comparing I feel like our code was easier to read because we focused on using more HTML5 elements and everything looked more organized. Also some of the original code was outdated and obsolete according to the validator.
+
+*/
+
+
