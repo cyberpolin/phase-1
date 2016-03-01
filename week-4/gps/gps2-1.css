@@ -1,0 +1,27 @@
+.column-1 {
+  background: green;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left:3%;
+  margin-right:3%;
+}
+.column-2 {
+  background: red;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left:3%;
+  margin-right:3%;
+}
+header {
+  text-align: center;
+}
+footer {
+  margin-top: 2%;
+  text-align: center;
+}
+img {
+  width: 15%;
+  height: 15%;
+}
