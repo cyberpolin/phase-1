@@ -37,16 +37,24 @@ my_hash_finding_method(my_family_pets_ages, 4)
 #
 #---------------------------------------------------------
 # # Person 2
-# def my_array_modification_method!(source, thing_to_modify)
-#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-# end
+def my_array_modification_method!(source, thing_to_modify)
+  new_array = source
+  new_array[2] += thing_to_modify
+  new_array[7] += thing_to_modify
+  return new_array
+end
 
-# def my_hash_modification_method!(source, thing_to_modify)
-#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-# end
+def my_hash_modification_method!(source, thing_to_modify)
+ new_array = source
+ source.each {|k,v|
+  new_array[k] = v + thing_to_modify
+ }
+ return new_array
+end
+
 
 # # Identify and describe the Ruby method(s) you implemented.
-# #
+# #=> I just use each to iter the hash :)
 # #
 # #
 
@@ -67,18 +75,21 @@ my_hash_finding_method(my_family_pets_ages, 4)
 
 
 # # Person 4
-# def my_array_deletion_method!(source, thing_to_delete)
-#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-# end
+ def my_array_deletion_method!(source, thing_to_delete)
+  source.delete_if {|name| name.to_s.include? thing_to_delete}
+end
 
-# def my_hash_deletion_method!(source, thing_to_delete)
-#   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-# end
+
+def my_hash_deletion_method!(source, thing_to_delete)
+  source.delete_if { |name,age| name.to_s.include? thing_to_delete}
+end
+
 
 # # Identify and describe the Ruby method(s) you implemented.
-# #
-# #
-# #
+# # The delete_if method deletes the element depending on a condition
+# # The to_s method insures that we're comparing two strings
+# # The include? method is the condition that we test.
+
 
 
 # # Person 5
